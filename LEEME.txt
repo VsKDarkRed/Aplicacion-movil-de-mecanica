@@ -1,0 +1,15 @@
+MECÁNICA VISUAL — PAQUETE PARA PUBLICAR COMO WEB APP
+
+Este paquete está preparado para publicarse en un alojamiento HTTPS estático (por ejemplo, GitHub Pages).
+
+ARCHIVOS:
+- index.html: aplicación
+- manifest.webmanifest: metadatos de instalación
+- sw.js: caché para volver a abrir la aplicación sin conexión tras la primera carga
+- icons/: iconos para pantalla de inicio
+
+IMPORTANTE:
+- Para que el modo instalable y la caché funcionen, publica TODOS los archivos conservando las carpetas en un sitio HTTPS.
+- En iPhone: abre la URL publicada en Safari > botón Compartir > Añadir a pantalla de inicio.
+- La primera carga debe hacerse con Internet para guardar los archivos.
+- Esta app es educativa y no consulta catálogos ni stock profesionales.
