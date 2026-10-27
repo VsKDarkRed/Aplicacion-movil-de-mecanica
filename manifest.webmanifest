@@ -1,18 +1,1 @@
-{
-  "name": "Mecánica Visual Pro",
-  "short_name": "Mecánica Visual",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#f2f5f9",
-  "theme_color": "#14243a",
-  "description": "Atlas técnico visual y formación profesional en recambios de automoción.",
-  "icons": [
-    {
-      "src": "./icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
-}
+{"name":"Mecánica Visual V9","short_name":"Mecánica Visual","start_url":"./index.html","display":"standalone","background_color":"#f2f5f9","theme_color":"#14243a","icons":[{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
