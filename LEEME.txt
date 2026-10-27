@@ -1,9 +1,9 @@
-MECÁNICA VISUAL — PAQUETE PARA PUBLICAR COMO WEB APP
+MECÁNICA VISUAL — ACTUALIZACIÓN PWA v4
 
 Este paquete está preparado para publicarse en un alojamiento HTTPS estático (por ejemplo, GitHub Pages).
 
 ARCHIVOS:
-- index.html: aplicación
+- index.html: aplicación ampliada con atlas visual, fichas técnicas, casos prácticos y exámenes por niveles
 - manifest.webmanifest: metadatos de instalación
 - sw.js: caché para volver a abrir la aplicación sin conexión tras la primera carga
 - icons/: iconos para pantalla de inicio
@@ -13,3 +13,27 @@ IMPORTANTE:
 - En iPhone: abre la URL publicada en Safari > botón Compartir > Añadir a pantalla de inicio.
 - La primera carga debe hacerse con Internet para guardar los archivos.
 - Esta app es educativa y no consulta catálogos ni stock profesionales.
+
+ACTUALIZACIÓN v3:
+- Se conservan el nombre, los iconos, el manifest y el funcionamiento PWA.
+- El service worker usa una caché nueva para evitar que Safari siga mostrando la versión anterior.
+- Incluye atlas conceptual por sistemas, fichas de comprobación de recambios, cinco casos interactivos y exámenes básico/intermedio/avanzado/completo.
+- Guarda localmente la última sección, el mejor resultado y el número de casos contestados cuando el navegador permite almacenamiento local.
+
+PUBLICACIÓN SEGURA:
+1. Conserva una copia del repositorio antes de sustituir archivos.
+2. Sube los archivos del ZIP manteniendo la carpeta icons.
+3. En GitHub Pages, espera a que termine el despliegue.
+4. En Safari, vuelve a cargar la página. Si se ve la versión anterior, cierra la pestaña y abre de nuevo; el service worker nuevo actualiza la caché.
+
+
+AMPLIACIÓN v3:
+- Atlas ampliado a 73 fichas de componentes.
+- Añadidas preguntas de diagnóstico y selección de recambios al bloque de exámenes.
+- Caché PWA versionada como mecanica-visual-v3 para solicitar una instalación actualizada.
+
+
+AMPLIACIÓN v4:
+- Se mantienen todos los archivos y funciones de la PWA v3.
+- Se amplía el bloque de casos prácticos de 5 a 10: distribución, refrigerante, batería Start-Stop, sensor ABS y filtro de aceite.
+- La caché se versiona como mecanica-visual-v4 para que el navegador solicite los archivos actualizados.

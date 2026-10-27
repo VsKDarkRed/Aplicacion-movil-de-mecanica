@@ -1,12 +1,12 @@
 {
   "name": "Mecánica Visual — Aprende piezas",
   "short_name": "Mecánica Visual",
-  "description": "Aprende componentes del automóvil, su función y ubicación habitual.",
+  "description": "Atlas visual, fichas técnicas, casos prácticos de recambios y exámenes por niveles.",
   "lang": "es-ES",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "background_color": "#f3f6fa",
   "theme_color": "#14243a",
   "icons": [
