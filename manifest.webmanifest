@@ -1,10 +1,10 @@
 {
-  "name": "Mecánica Visual V9.5 V9.5 · Catálogos OEM",
-  "short_name": "Mecánica Visual V9.5",
+  "name": "Mecánica Visual V9.7 · Taller y diagnosis profesional",
+  "short_name": "Mecánica Visual V9.7",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f2f5f9",
-  "theme_color": "#14243a",
+  "background_color": "#edf2f8",
+  "theme_color": "#101d32",
   "icons": [
     {
       "src": "./icon.svg",
